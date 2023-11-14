@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: url('dark-stone-desk-texture-with-concrete-background-high-resolution-top-view-table-with-copy-space-idea-advertising-banner-product-article_166373-2662.avif');
+    display: flex;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    width: 28vw;
+    height: 42vh;
+    margin: 1.5vw 3vh;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+#box-1 {
+    background: rgba(255, 0, 0, 0.725);
+}
+
+#box-2 {
+    background: rgb(255, 208, 0);
+}
+
+#box-3 {
+    background: rgb(0, 255, 68);
+}
+
+#box-4 {
+    background: rgb(0, 132, 255);
+}
+
+#box-5 {
+    background: rgb(145, 67, 0);
+}
+
+#box-6 {
+    background: rgb(104, 104, 104);
+}
+
+.submit {
+    width: 100%;
+    background-color: burlywood;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.toToggle {
+    -webkit-animation: rotate 5s normal linear infinite;
+    animation: rotate 5s normal linear infinite;
+    background: url('drift.png') no-repeat !important;
+    background-size: contain !important;
+    text-decoration: none;
+  }
+  
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+    25% {
+      -webkit-transform: rotate3d(0, 0, 1, 90deg);
+      transform: rotate3d(0, 0, 1, 90deg);
+    }
+    50% {
+      -webkit-transform: rotate3d(0, 0, 1, 180deg);
+      transform: rotate3d(0, 0, 1, 180deg);
+    }
+    75% {
+      -webkit-transform: rotate3d(0, 0, 1, 270deg);
+      transform: rotate3d(0, 0, 1, 270deg);
+    }
+    100% {
+      -webkit-transform: rotate3d(0, 0, 1, 360deg);
+      transform: rotate3d(0, 0, 1, 360deg);
+    }
+  }
