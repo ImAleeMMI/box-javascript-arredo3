@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url('dark-stone-desk-texture-with-concrete-background-high-resolution-top-view-table-with-copy-space-idea-advertising-banner-product-article_166373-2662.avif');
+    background: url('img/dark-stone-desk-texture-with-concrete-background-high-resolution-top-view-table-with-copy-space-idea-advertising-banner-product-article_166373-2662.avif');
     display: flex;
 }
 
@@ -74,7 +74,7 @@ h3 {
 .toToggle {
     -webkit-animation: rotate 5s normal linear infinite;
     animation: rotate 5s normal linear infinite;
-    background: url('drift.png') no-repeat !important;
+    background: url('img/drift.png') no-repeat !important;
     background-size: contain !important;
     text-decoration: none;
   }
